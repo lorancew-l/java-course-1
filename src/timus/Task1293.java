@@ -1,9 +1,9 @@
-package src.timus.task_1293;
+package src.timus;
 
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Main {
+public class Task1293 {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
     PrintWriter out = new PrintWriter(System.out);
