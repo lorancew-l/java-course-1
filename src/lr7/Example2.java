@@ -4,11 +4,17 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Example2 {
   public static void main(String[] args) {
     String fileName = "src/lr7/example2/example_file.txt";
-    String data = "Это данные для записи в файл";
+
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Введите данные для записи в файл:");
+    String data = scanner.nextLine();
+    scanner.close();
+
     try (FileOutputStream outputStream = new FileOutputStream(fileName)) {
       outputStream.write(data.getBytes());
       System.out.println("Данные записаны в файл: " + fileName);

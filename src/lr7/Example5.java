@@ -12,8 +12,8 @@ import java.io.OutputStreamWriter;
 
 public class Example5 {
   public static void main(String[] args) {
-    String inputFileName = "src/lr/example7/input.txt";
-    String outputFileName = "src/lr/example7/output.txt";
+    String inputFileName = "src/lr7/example5/input.txt";
+    String outputFileName = "src/lr7/example5/output.txt";
     try (InputStream inputStream = new FileInputStream(inputFileName)) {
       InputStreamReader inputStreamReader = new InputStreamReader(inputStream, "UTF-8");
       BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
