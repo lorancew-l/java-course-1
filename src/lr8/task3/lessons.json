@@ -1,0 +1,14 @@
+{
+  "lessons": [
+    {
+      "title": "Math",
+      "professor": "Ivanov I.I.",
+      "year": 2023
+    },
+    {
+      "title": "Computer science",
+      "professor": "Petrov P.P.",
+      "year": 2024
+    }
+  ]
+}

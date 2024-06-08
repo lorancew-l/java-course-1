@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<University>
+            
+    
+    <Lesson>
+                        
+        
+        <title>Math</title>
+                        
+        
+        <professor>Ivanov I.I.</professor>
+                        
+        
+        <year>2023</year>
+                    
+    
+    </Lesson>
+            
+    
+    <Lesson>
+                        
+        
+        <title>Computer science</title>
+                        
+        
+        <professor>Petrov P.P.</professor>
+                        
+        
+        <year>2024</year>
+                    
+    
+    </Lesson>
+        
+    
+
+</University>
